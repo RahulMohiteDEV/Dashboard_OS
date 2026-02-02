@@ -1,0 +1,67 @@
+.dock{
+      display: flex;
+  gap: 20px;           // icons ke beech space
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(153, 151, 151, 0.297);
+  padding-inline: 1rem;
+  padding-block: 0.75rem;
+  border-radius: 0.75rem;
+  backdrop-filter: blur(6px);
+}
+
+
+
+.calendar {
+  background: #ff3b30;   // Apple calendar red
+}
+
+.clipboard {
+  background: #8e8e93;   // Neutral gray
+}
+
+.file {
+  background: #007aff;   // iOS blue
+}
+
+.link {
+  background: #34c759;   // iOS green
+}
+
+.mail {
+  background: #0a84ff;   // Mail blue
+}
+
+.note {
+  background: #ffd60a;   // Notes yellow
+}
+
+.spotify {
+  background: #1db954;   // Spotify green
+}
+
+
+
+.icon  {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 12px;
+  transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+  
+}
+
+.icon:hover{
+    transform: scale(1.25) translateY(-20%);
+}
+
+.icon:hover + .icon,
+.icon:has(+ .icon:hover){
+    transform: scale(1.1) translateY(-10%);
+}
