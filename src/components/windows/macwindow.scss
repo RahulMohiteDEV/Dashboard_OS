@@ -1,6 +1,6 @@
 .window{
     
-    width: 900px;
+    width: 800px;
     background-color: black;
     border-radius: 12px;
     overflow: hidden;
@@ -29,6 +29,7 @@
 
     .red{
         background-color: rgb(246, 74, 74);
+        cursor: pointer;
     }
 
     .yellow{
@@ -51,3 +52,13 @@
 .main-containt{
     height: 100%;
 }
+
+*::-webkit-scrollbar {
+    width: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.432);
+    border-radius: 20px;
+}
+

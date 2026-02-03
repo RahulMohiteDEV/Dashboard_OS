@@ -1,67 +1,63 @@
-.dock{
-      display: flex;
-  gap: 20px;           // icons ke beech space
-  padding: 20px;
+.dock {
+  display: flex;
+  gap: 20px;
   position: absolute;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  background-color: rgba(153, 151, 151, 0.297);
   padding-inline: 1rem;
   padding-block: 0.75rem;
+  background-color: rgba(153, 151, 151, 0.297);
   border-radius: 0.75rem;
   backdrop-filter: blur(6px);
 }
 
-
-
-.calendar {
-  background: #ff3b30;   // Apple calendar red
-}
-
-.clipboard {
-  background: #8e8e93;   // Neutral gray
-}
-
-.file {
-  background: #007aff;   // iOS blue
-}
-
-.link {
-  background: #34c759;   // iOS green
-}
-
-.mail {
-  background: #0a84ff;   // Mail blue
-}
-
-.note {
-  background: #ffd60a;   // Notes yellow
-}
-
-.spotify {
-  background: #1db954;   // Spotify green
-}
-
-
-
-.icon  {
+/* ===== Icon Base ===== */
+.icon {
   width: 40px;
   height: 40px;
+  border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  cursor: pointer;
 
-  border-radius: 12px;
   transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
-  
+
+  img {
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+  }
 }
 
-.icon:hover{
-    transform: scale(1.25) translateY(-20%);
+/* ===== Hover Magnification ===== */
+.icon:hover {
+  transform: scale(1.25) translateY(-20%);
 }
 
 .icon:hover + .icon,
-.icon:has(+ .icon:hover){
-    transform: scale(1.1) translateY(-10%);
+.icon:has(+ .icon:hover) {
+  transform: scale(1.1) translateY(-10%);
 }
+
+/* ===== Active Dot ===== */
+.active-dot {
+  position: absolute;
+  bottom: -8px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: white;
+}
+
+/* ===== App Colors ===== */
+.calendar { background: #ff3b30; }
+.clipboard { background: #8e8e93; }
+.file { background: #007aff; }
+.link { background: #34c759; }
+.mail { background: #0a84ff; }
+.note { background: #ffd60a; }
+.spotify { background: #1db954; }
+.github { background: #24292f; }

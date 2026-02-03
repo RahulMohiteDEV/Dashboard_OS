@@ -1,0 +1,43 @@
+Rahul Mohite
+LinkedIn | Portfolio | GitHub
+mohiterahul8380@gmail.com
++91 9922935750
+
+PROFILE SUMMARY
+Results-driven MERN Full Stack Developer with hands-on experience in designing, developing, and deploying scalable,
+responsive, and user-centric web applications using MongoDB, Express.js, React.js, and Node.js. Possesses strong expertise
+in building modern front-end interfaces with React.js, JavaScript (ES6+), HTML5, CSS3, and Tailwind CSS, while effectively
+supporting backend functionality through RESTful API development and server-side logic using Node.js and Express.js.
+
+CORE SKILLS
+● Frontend: React.js, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, Bootstrap
+● Backend: Node.js, Express.js , REST APIs
+● Database: MongoDB, MySQL
+● Tools & Libraries: Git, GitHub, Postman, React Router, ReactToPrint, EmailJS, Recharts
+● Design & UX: Canva (layout and mockups), Responsive Design, Accessibility
+● Other: SPA Navigation, API Integration, Report Generation, Enquiry Form Integration
+
+PROFESSIONAL EXPERIENCE
+MERN Full Stack Developer March 2025 – Present
+Satara Biochem, Satara, Maharashtra
+● Designed and developed the company’s official website using React.js and Tailwind CSS to showcase products and
+services.
+● Built interactive UI components such as hero sliders, product showcases, testimonial carousels, and enquiry forms.
+● Implemented React Router for seamless single-page navigation.
+● Optimized performance and responsiveness across devices, enhancing mobile usability and loading speed.
+PROJECTS
+Soil Test Generator
+● Built a web-based soil analysis and report generation system using React and Node.js.
+● Reduced report generation time from 2 hours to under 10 minutes.
+● Implemented charts using Recharts for soil parameter visualization.
+● Designed a clean, user-friendly dashboard to display test summaries and recommendations.
+Task Management System
+● Built an offline-ready task management tool using React, Node.js, and Tailwind CSS.
+● Enabled small teams to create, assign, and track tasks efficiently without external SaaS tools.
+● Engineered a robust local storage caching system to ensure full functionality offline with automatic data
+synchronization upon reconnection.
+EDUCATION
+● Master’s in Computer Science, Karmaveer Bhaurao Patil University 2023 - 25
+CGPA: 7.23
+● Bachelor’s in Computer Science, Shivaji University 2020 - 23
+CGPA: 8.76
